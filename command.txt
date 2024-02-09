@@ -1,0 +1,14 @@
+this is the build command.. to build the docker image
+>> docker build -t nest-auth-app:1.0 .
+
+this is the run command to run the docker image
+>> docker run -p 3000:3000 nest-auth-app:1.0
+
+This is the endpoint for the login
+>> Mapped {/auth/login, POST} route +2ms
+Eg: localhost:3000/auth/login
+
+This is the endpoint for the status
+>> Mapped {/auth/status, GET} route +0ms
+Eg: localhost:3000/auth/status
+
